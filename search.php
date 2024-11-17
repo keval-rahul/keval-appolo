@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","","hms");
+$con=mysqli_connect("db","keval_root","keval_root","exampledb" ,3306);
 if(isset($_POST['search_submit'])){
   $contact=$_POST['contact'];
   $docname = $_SESSION['dname'];

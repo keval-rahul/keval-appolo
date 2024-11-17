@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","","hms");
+$con=mysqli_connect("db","keval_root","keval_root","exampledb" ,3306);
 
 if(isset($_POST['update_data']))
 {
